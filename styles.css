@@ -9,3 +9,53 @@ body{
     background-size: cover;
     background-clip: border-box;
 }
+.card{
+    border: 1px black;
+    box-shadow: 15px 15px 15px hsla(0, 1%, 30%, 0.66);
+    border-radius: 10px;
+    padding: 25px;
+    text-align: center;
+    background-color: hsla(0, 1%, 79%, 0.959);
+    display: block;
+    align-items: center;
+    margin: 15% 25% 25% 25%;
+}
+.card .title{
+    font-family: Arial, Helvetica, sans-serif;
+    color: hsl(0, 0%, 0%);
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+}
+.form{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+.form #favColor{
+    border: none;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    outline: none;
+    font-family: "Montserrat", sans-serif;
+    box-shadow: hsl(0, 5%, -19%);
+}
+.form #btn{
+    background-color: hsl(216, 69%, 54%);
+    padding: 10px 15px;
+    border: none;
+    margin-top: 10px;
+    color: white;
+    border-radius: 20px;
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;
+}
+.card #fortune{
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    margin-top: 20px;
+}
