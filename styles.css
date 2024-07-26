@@ -41,6 +41,7 @@ body{
     outline: none;
     font-family: "Montserrat", sans-serif;
     box-shadow: hsl(0, 5%, -19%);
+    width: 200px;
 }
 .form #btn{
     background-color: hsl(216, 69%, 54%);
@@ -58,4 +59,8 @@ body{
     font-style: italic;
     font-weight: 500;
     margin-top: 20px;
+}
+.form ::placeholder{
+    color: rgb(185, 182, 182);
+    font-size: 14px;
 }
